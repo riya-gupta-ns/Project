@@ -1,0 +1,17 @@
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/bin/Debug/net6.0/NS.CMS.Repository.dll
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/bin/Debug/net6.0/NS.CMS.Repository.pdb
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/obj/Debug/net6.0/NS.CMS.Repository.csproj.AssemblyReference.cache
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/obj/Debug/net6.0/NS.CMS.Repository.GeneratedMSBuildEditorConfig.editorconfig
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/obj/Debug/net6.0/NS.CMS.Repository.AssemblyInfoInputs.cache
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/obj/Debug/net6.0/NS.CMS.Repository.AssemblyInfo.cs
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/obj/Debug/net6.0/NS.CMS.Repository.csproj.CoreCompileInputs.cache
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/obj/Debug/net6.0/NS.CMS.Repository.dll
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/obj/Debug/net6.0/ref/NS.CMS.Repository.dll
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/obj/Debug/net6.0/NS.CMS.Repository.pdb
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/bin/Debug/net6.0/NS.CMS.Repository.deps.json
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/bin/Debug/net6.0/ref/NS.CMS.Repository.dll
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/bin/Debug/net6.0/NS.CMS.Data.dll
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/bin/Debug/net6.0/NS.CMS.Model.dll
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/bin/Debug/net6.0/NS.CMS.Data.pdb
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/bin/Debug/net6.0/NS.CMS.Model.pdb
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/obj/Debug/net6.0/NS.CMS.Repository.csproj.CopyComplete

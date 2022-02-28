@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\NS.CMS.Data\NS.CMS.Data.csproj" />
+    <ProjectReference Include="..\NS.CMS.Repository\NS.CMS.Repository.csproj" />
+    <ProjectReference Include="..\NS.CMS.Model\NS.CMS.Model.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,12 @@
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Model/bin/Debug/net6.0/NS.CMS.Model.dll
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Model/bin/Debug/net6.0/NS.CMS.Model.pdb
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Model/obj/Debug/net6.0/NS.CMS.Model.csproj.AssemblyReference.cache
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Model/obj/Debug/net6.0/NS.CMS.Model.GeneratedMSBuildEditorConfig.editorconfig
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Model/obj/Debug/net6.0/NS.CMS.Model.AssemblyInfoInputs.cache
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Model/obj/Debug/net6.0/NS.CMS.Model.AssemblyInfo.cs
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Model/obj/Debug/net6.0/NS.CMS.Model.csproj.CoreCompileInputs.cache
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Model/obj/Debug/net6.0/NS.CMS.Model.dll
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Model/obj/Debug/net6.0/ref/NS.CMS.Model.dll
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Model/obj/Debug/net6.0/NS.CMS.Model.pdb
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Model/bin/Debug/net6.0/NS.CMS.Model.deps.json
+/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Model/bin/Debug/net6.0/ref/NS.CMS.Model.dll

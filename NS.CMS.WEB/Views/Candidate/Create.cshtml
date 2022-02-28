@@ -1,0 +1,114 @@
+@model NS.CMS.Model.CandidateModel
+
+@section Scripts {
+   @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create</title>
+  <style>
+    body {
+     font-family: Arial, Helvetica, sans-serif; 
+     font-size: 16px;
+     line-height: 1.5;
+     color: #333;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <h4 class="my-2 fw-bold">Add New Candidate</h4>
+    <hr>
+    <div>
+      @using (Html.BeginForm("Create", "Candidate", FormMethod.Post, new { enctype = "multipart/form-data", @class="form w-50"}))
+      {
+        <div class="mb-3">
+          @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "form-label fw-bold" })
+          @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control" } })
+          @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+          @Html.LabelFor(model => model.Dob, htmlAttributes: new { @class = "form-label fw-bold" })
+          @Html.EditorFor(model => model.Dob, new { htmlAttributes = new { @class = "form-control" } })
+          @Html.ValidationMessageFor(model => model.Dob, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+          @Html.LabelFor(model => model.Gender, htmlAttributes: new { @class = "form-label fw-bold" })  
+          Male: @Html.RadioButtonFor(model=>model.Gender,"Male") 
+          Female: @Html.RadioButtonFor(model=>model.Gender,"Female")
+          @Html.ValidationMessageFor(model => model.Gender, "", new { @class = "text-danger" })  
+        </div> 
+
+        <div class="mb-3">
+          @Html.LabelFor(model => model.Address, htmlAttributes: new { @class = "form-label fw-bold" })
+          @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @class = "form-control" } })
+          @Html.ValidationMessageFor(model => model.Address, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+          @Html.LabelFor(model => model.Mobile, htmlAttributes: new { @class = "form-label fw-bold" })
+          @Html.EditorFor(model => model.Mobile, new { htmlAttributes = new { @class = "form-control" } })
+          @Html.ValidationMessageFor(model => model.Mobile, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+          @Html.LabelFor(model => model.Email, htmlAttributes: new { @class = "form-label fw-bold" })
+          @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "form-control" } })
+          @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+          @Html.LabelFor(model => model.Tech, htmlAttributes: new { @class = "form-label col-md-2 fw-bold" })
+          @Html.DropDownListFor(model=>model.Tech, new List<SelectListItem>
+          {
+              new SelectListItem{Text=".NET", Value=".NET", Selected=true},
+              new SelectListItem{Text="Python", Value="Python", Selected=true},
+              new SelectListItem{Text="Java", Value="Java", Selected=true}
+          },"Select Technology")
+            @Html.ValidationMessageFor(model => model.Tech, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+          @Html.LabelFor(model => model.Image, htmlAttributes: new { @class = "form-label fw-bold" })
+          @Html.EditorFor(model => model.Image, new { htmlAttributes = new { @class = "form-control", @accept="image/*" } })
+          @Html.ValidationMessageFor(model => model.Image, "", new { @class = "text-danger" })
+        </div>
+
+        <div class="mb-3">
+          @Html.LabelFor(model => model.Resume, htmlAttributes: new { @class = "form-label fw-bold" })  
+          @Html.EditorFor(model => model.Resume, new { htmlAttributes = new { @class = "form-control", @accept="application/pdf" } })
+          @Html.ValidationMessageFor(model => model.Resume, "", new { @class = "text-danger" })  
+        </div> 
+
+        <div class="mb-3">
+          @Html.LabelFor(model => model.Description, htmlAttributes: new { @class = "form-label fw-bold" })  
+          @Html.EditorFor(model => model.Description, new { htmlAttributes = new { @class = "form-control" } })
+          @Html.ValidationMessageFor(model => model.Description, "", new { @class = "text-danger" })  
+        </div> 
+
+        <div class="mb-3">
+          <input type="submit" value="Add" class="btn btn-primary" onclick="finalinsert()"/>
+          <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+        </div>
+      }
+    </div>
+  </div>
+  <script>
+    function finalinsert(){
+      alert("Data is inserted");
+    }
+  </script>
+</body>
+
+</html>

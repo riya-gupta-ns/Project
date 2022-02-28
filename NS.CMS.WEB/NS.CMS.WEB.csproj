@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.2" />
+    <PackageReference Include="System.Core" Version="3.5.21022.801" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.2">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="PagedList.Mvc" Version="4.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NS.CMS.Data\NS.CMS.Data.csproj" />
+    <ProjectReference Include="..\NS.CMS.Model\NS.CMS.Model.csproj" />
+    <ProjectReference Include="..\NS.CMS.Buisness\NS.CMS.Buisness.csproj" />
+    <ProjectReference Include="..\NS.CMS.Repository\NS.CMS.Repository.csproj" />
+  </ItemGroup>
+</Project>

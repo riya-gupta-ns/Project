@@ -1,0 +1,96 @@
+@model List<NS.CMS.Data.Entities.Candidate>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <style>
+    body {
+     font-family: Arial, Helvetica, sans-serif; 
+     font-size: 16px;
+     line-height: 1.5;
+     color: #333;
+    }
+
+    img {
+      max-width: 100%;
+      width: 400px;
+      height: 400px;
+    }
+
+    .details{
+      display: flex;
+      justify-content: space-around;
+      border: 1px solid black;
+      padding: 10px 0;
+      margin-top: 30px;
+    }
+
+    .details .div-1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+    }
+
+    .details .div-2 {
+      width: 550px;
+      margin-left: 0;
+      padding: 29px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    </style>
+
+</head>
+<body>
+  <div class="container details">
+  @foreach( var item in Model)
+  {
+    <div class="div-1">
+      <img src="@item.Image" />
+      <a asp-controller="Candidate" asp-action="Index" class="btn btn-primary w-50 mt-0 mx-auto ">Back To Index</a>
+      <a href="@item.Resume" class="btn btn-primary w-50 mt-0 mx-auto"> Download Resume </a>
+    </div>
+    <div class="div-2">
+      <div>
+        <h5>Name</h5>
+        <p>@item.Name</p>
+      </div>
+      <div>
+        <h5>Date Of Birth</h5>
+        <p>@item.Dob</p>
+      </div>
+      <div>
+        <h5>Address</h5>
+        <p>@item.Address</p>
+      </div>
+      <div>
+        <h5>Mobile</h5>
+        <p>@item.Mobile</p>
+      </div>
+      <div>
+        <h5>Email</h5>
+        <p>@item.Email</p>
+      </div>
+      <div>
+        <h5>Technology</h5>
+        <p>@item.Tech</p>
+      </div>
+      <div>
+        <h5>Gender</h5>
+        <p>@item.Address</p>
+      </div>
+      <div>
+        <h5>Bio :</h5>
+        <p>@item.Description</p>
+      </div>
+    </div> 
+  }
+  </div>
+</body>
+</html>

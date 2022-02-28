@@ -1,0 +1,76 @@
+@model List<NS.CMS.Data.Entities.Candidate>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <style>
+    body {
+     font-family: Arial, Helvetica, sans-serif; 
+     font-size: 16px;
+     line-height: 1.5;
+     color: #333;
+    }
+
+    a {
+     text-decoration: none; 
+    }
+
+    .div-1 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="div-1">
+      <p class="fs-2 fw-bold">Candidates List</p>
+      @using (Html.BeginForm("Index","Candidate", FormMethod.Get))
+      {
+        @Html.TextBox("searchData")
+        <input type="submit" value="Search" />
+        <br>
+        <span>Name</span>@Html.RadioButton("sort","Name");
+        <span>Id</span> @Html.RadioButton("sort","Id");
+        <input type="submit" value="Sort" />
+      }
+    </div>
+    <hr class="">
+    <div class="div-2">
+      <table class="table w-50 table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">Options</th>
+          </tr>
+        </thead>
+        <tbody>
+
+          @*
+          @foreach( var item in Model)
+          {
+          <tr>
+            <td scope="row">@item.Id</td>
+            <td><a asp-controller="Candidate" asp-action="Details" asp-route-id="@item.Id">@item.Name</a></td>
+            <td>
+              <a asp-controller="Candidate" asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">Edit</a>
+              <a asp-controller="Candidate" asp-action="Delete" asp-route-id="@item.Id" class="btn btn-secondary ">Delete</a>
+            </td>
+          </tr>
+          }
+         *@ 
+        </tbody>
+      </table>
+    </div>
+    <a asp-controller="Candidate" asp-action="Create" class="btn btn-primary">Add New Candidate</a>
+  </div>
+</body>
+</html>
