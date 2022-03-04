@@ -8,53 +8,53 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NS.CMS.WEB
 build_property.RootNamespace = NS.CMS.WEB
-build_property.ProjectDir = /home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.WEB/
+build_property.ProjectDir = C:\Users\Ritik\Downloads\Project\Project\NS.CMS.WEB\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.WEB
+build_property.MSBuildProjectDirectory = C:\Users\Ritik\Downloads\Project\Project\NS.CMS.WEB
 build_property._RazorSourceGeneratorDebug = 
 
-[/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.WEB/Views/Candidate/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXRlL0NyZWF0ZS5jc2h0bWw=
+[C:/Users/Ritik/Downloads/Project/Project/NS.CMS.WEB/Views/Candidate/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.WEB/Views/Candidate/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXRlL0RldGFpbHMuY3NodG1s
+[C:/Users/Ritik/Downloads/Project/Project/NS.CMS.WEB/Views/Candidate/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.WEB/Views/Candidate/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXRlL0VkaXQuY3NodG1s
+[C:/Users/Ritik/Downloads/Project/Project/NS.CMS.WEB/Views/Candidate/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.WEB/Views/Candidate/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2FuZGlkYXRlL0luZGV4LmNzaHRtbA==
+[C:/Users/Ritik/Downloads/Project/Project/NS.CMS.WEB/Views/Candidate/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FuZGlkYXRlXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.WEB/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+[C:/Users/Ritik/Downloads/Project/Project/NS.CMS.WEB/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.WEB/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+[C:/Users/Ritik/Downloads/Project/Project/NS.CMS.WEB/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.WEB/Views/Shared/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+[C:/Users/Ritik/Downloads/Project/Project/NS.CMS.WEB/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.WEB/Views/Shared/_ValidationScriptsPartial.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+[C:/Users/Ritik/Downloads/Project/Project/NS.CMS.WEB/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.WEB/Views/_ViewImports.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+[C:/Users/Ritik/Downloads/Project/Project/NS.CMS.WEB/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.WEB/Views/_ViewStart.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+[C:/Users/Ritik/Downloads/Project/Project/NS.CMS.WEB/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.WEB/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-1hpjdkv7a6
+[C:/Users/Ritik/Downloads/Project/Project/NS.CMS.WEB/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-lhp5fip14i
