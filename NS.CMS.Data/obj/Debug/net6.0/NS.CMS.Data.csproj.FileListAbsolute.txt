@@ -12,3 +12,17 @@
 /home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Data/bin/Debug/net6.0/NS.CMS.Data.runtimeconfig.json
 /home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Data/bin/Debug/net6.0/ref/NS.CMS.Data.dll
 /home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Data/obj/Debug/net6.0/NS.CMS.Data.genruntimeconfig.cache
+C:\Users\Ritik\Downloads\Project\Project\NS.CMS.Data\bin\Debug\net6.0\NS.CMS.Data.deps.json
+C:\Users\Ritik\Downloads\Project\Project\NS.CMS.Data\bin\Debug\net6.0\NS.CMS.Data.runtimeconfig.json
+C:\Users\Ritik\Downloads\Project\Project\NS.CMS.Data\bin\Debug\net6.0\NS.CMS.Data.dll
+C:\Users\Ritik\Downloads\Project\Project\NS.CMS.Data\bin\Debug\net6.0\ref\NS.CMS.Data.dll
+C:\Users\Ritik\Downloads\Project\Project\NS.CMS.Data\bin\Debug\net6.0\NS.CMS.Data.pdb
+C:\Users\Ritik\Downloads\Project\Project\NS.CMS.Data\obj\Debug\net6.0\NS.CMS.Data.csproj.AssemblyReference.cache
+C:\Users\Ritik\Downloads\Project\Project\NS.CMS.Data\obj\Debug\net6.0\NS.CMS.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ritik\Downloads\Project\Project\NS.CMS.Data\obj\Debug\net6.0\NS.CMS.Data.AssemblyInfoInputs.cache
+C:\Users\Ritik\Downloads\Project\Project\NS.CMS.Data\obj\Debug\net6.0\NS.CMS.Data.AssemblyInfo.cs
+C:\Users\Ritik\Downloads\Project\Project\NS.CMS.Data\obj\Debug\net6.0\NS.CMS.Data.csproj.CoreCompileInputs.cache
+C:\Users\Ritik\Downloads\Project\Project\NS.CMS.Data\obj\Debug\net6.0\NS.CMS.Data.dll
+C:\Users\Ritik\Downloads\Project\Project\NS.CMS.Data\obj\Debug\net6.0\ref\NS.CMS.Data.dll
+C:\Users\Ritik\Downloads\Project\Project\NS.CMS.Data\obj\Debug\net6.0\NS.CMS.Data.pdb
+C:\Users\Ritik\Downloads\Project\Project\NS.CMS.Data\obj\Debug\net6.0\NS.CMS.Data.genruntimeconfig.cache

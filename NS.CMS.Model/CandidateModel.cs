@@ -17,7 +17,7 @@ namespace NS.CMS.Model
     [DataType(DataType.Date)]
     [DisplayName("Date Of Birth")]
     [Required(ErrorMessage = "Please enter date of birth")]
-    public DateTime Dob { get; set; }
+    public DateOnly Dob { get; set; }
 
     [Required(ErrorMessage = "This Field is Required.")]
     [MinLength(5, ErrorMessage = "The Address must be at least 5 characters")]

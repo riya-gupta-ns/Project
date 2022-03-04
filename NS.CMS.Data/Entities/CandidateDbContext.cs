@@ -22,7 +22,7 @@ namespace NS.CMS.Data.Entities
         {
             if (!optionsBuilder.IsConfigured)
             {
-                optionsBuilder.UseSqlServer("Server=localhost;Database=CandidateDb;Trusted_Connection=False;User Id=sa;Password=*@1abhimssql@*");
+                optionsBuilder.UseSqlServer("Server=LAPTOP-E0C8IHRE\\SQLEXPRESS;Database=EMS;Trusted_Connection=True;User Id=root;Password=Riya@1999");
             }
         }
 

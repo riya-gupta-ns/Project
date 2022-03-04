@@ -2519,41 +2519,48 @@
     ]
   },
   "packageFolders": {
-    "/home/abhishek/.nuget/packages/": {}
+    "C:\\Users\\Ritik\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.WEB/NS.CMS.WEB.csproj",
+      "projectUniqueName": "C:\\Users\\Ritik\\Downloads\\Project\\Project\\NS.CMS.WEB\\NS.CMS.WEB.csproj",
       "projectName": "NS.CMS.WEB",
-      "projectPath": "/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.WEB/NS.CMS.WEB.csproj",
-      "packagesPath": "/home/abhishek/.nuget/packages/",
-      "outputPath": "/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.WEB/obj/",
+      "projectPath": "C:\\Users\\Ritik\\Downloads\\Project\\Project\\NS.CMS.WEB\\NS.CMS.WEB.csproj",
+      "packagesPath": "C:\\Users\\Ritik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ritik\\Downloads\\Project\\Project\\NS.CMS.WEB\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/abhishek/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\Ritik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Buisness/NS.CMS.Buisness.csproj": {
-              "projectPath": "/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Buisness/NS.CMS.Buisness.csproj"
+            "C:\\Users\\Ritik\\Downloads\\Project\\Project\\NS.CMS.Buisness\\NS.CMS.Buisness.csproj": {
+              "projectPath": "C:\\Users\\Ritik\\Downloads\\Project\\Project\\NS.CMS.Buisness\\NS.CMS.Buisness.csproj"
             },
-            "/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Data/NS.CMS.Data.csproj": {
-              "projectPath": "/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Data/NS.CMS.Data.csproj"
+            "C:\\Users\\Ritik\\Downloads\\Project\\Project\\NS.CMS.Data\\NS.CMS.Data.csproj": {
+              "projectPath": "C:\\Users\\Ritik\\Downloads\\Project\\Project\\NS.CMS.Data\\NS.CMS.Data.csproj"
             },
-            "/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Model/NS.CMS.Model.csproj": {
-              "projectPath": "/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Model/NS.CMS.Model.csproj"
+            "C:\\Users\\Ritik\\Downloads\\Project\\Project\\NS.CMS.Model\\NS.CMS.Model.csproj": {
+              "projectPath": "C:\\Users\\Ritik\\Downloads\\Project\\Project\\NS.CMS.Model\\NS.CMS.Model.csproj"
             },
-            "/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/NS.CMS.Repository.csproj": {
-              "projectPath": "/home/abhishek/netsol/git/training/dotnet/Project/NS.CMS.Repository/NS.CMS.Repository.csproj"
+            "C:\\Users\\Ritik\\Downloads\\Project\\Project\\NS.CMS.Repository\\NS.CMS.Repository.csproj": {
+              "projectPath": "C:\\Users\\Ritik\\Downloads\\Project\\Project\\NS.CMS.Repository\\NS.CMS.Repository.csproj"
             }
           }
         }
@@ -2597,12 +2604,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.2, 6.0.2]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2611,7 +2612,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   },
